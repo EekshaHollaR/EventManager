@@ -1,17 +1,17 @@
-# 🎓 Campus Event Management Platform  
+#  Campus Event Management Platform  
 
 The **Campus Event Management** is a platform designed for creating different events of college, letting students register into events. We can also track attendance and feedback of the events across multiple campuses.  
 
 ---
 
-## 🖥️ Platform Interfaces  
+## Platform Interfaces  
 The platform mainly consists of **2 main interfaces**:  
 1. **Admin Portal** → for college staffs  
 2. **Student App** → for students to interact  
 
 ---
 
-## 📌 Assumptions  
+## Assumptions  
 
 For the purpose of designing the platform, I am assuming the following things:  
 
@@ -20,7 +20,7 @@ For the purpose of designing the platform, I am assuming the following things:
 - **Students per college**: 500  
 - **Number of events per semester**: 20 events per college  
 
-➡️ So totally there can be: **1000 events per semester** with **25,000 students participating**.  
+So totally there can be: **1000 events per semester** with **25,000 students participating**.  
 
 ### Other assumptions:  
 1. Unique ID should be used so that event IDs are unique across colleges, making inter-college events easier.  
@@ -44,7 +44,7 @@ The system should handle **peak fest times**.
 
 ---
 
-## ✅ Decisions Made (based on assumptions)  
+## Decisions Made (based on assumptions)  
 1. Using only **one DB** instead of separate DB per college.  
 2. Enabling **cross-college registration**.  
 3. Feedback system allowed only for students who attended the event (**1 feedback per student**).  
@@ -56,7 +56,7 @@ The system should handle **peak fest times**.
 
 ---
 
-## ⚠️ Edge Cases  
+## Edge Cases  
 1. Duplicate registration  
 2. Cancelled events  
 3. Missing feedback  
@@ -64,7 +64,7 @@ The system should handle **peak fest times**.
 
 ---
 
-## 🚀 Key Features  
+## Key Features  
 1. Event creation and management  
 2. Student registration  
 3. Student attendance & check-in  
