@@ -100,3 +100,65 @@ This project is built with:
 
 ## How to RUN Locally
 
+# Project Setup Instructions
+
+Steps to set up the project Locally -->
+---
+
+## 1. Prerequisites
+
+Have the following Installed :
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)  
+- [npm](https://www.npmjs.com/) (comes with Node.js)  
+- Optional: [Git](https://git-scm.com/) for cloning the repository
+
+---
+
+## 2. Clone the Repository
+
+```bash
+git clone <https://github.com/EekshaHollaR/EventManager.git>
+cd <unify-campus-event>
+```
+
+
+The project is present in the folder unified-campus-event so navigate to the folder then follow : 
+
+## 3. Download the dependencies 
+
+```bash
+npm install ## or use
+npm i
+```
+
+## 4. start the Development Server
+
+```bash
+npm run dev
+```
+
+## Troubleshoot
+
+If npm install fails, try clearing npm cache:
+```bash
+npm cache clean --force
+```
+If port already in use then change the confirguration in the env
+Check the Node.js and npm versions 
+
+```bash 
+node -v
+npm -v
+```
+
+## Note
+1. Make sure you have stable internet connection while downloading the dependencies 
+2. Make sure you pull the latest changes before starting the development
+
+    ```bash
+    git pull origin main
+    ```
+ 
+
+
